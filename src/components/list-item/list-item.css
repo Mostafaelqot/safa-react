@@ -1,0 +1,11 @@
+.btn-icons {
+    @apply hover:text-primairy transition ease-in-out duration-500 cursor-pointer m-4
+}
+
+.update-btn {
+    @apply bg-primairy text-white p-2 rounded w-20 hover:bg-white hover:text-primairy transition ease-in-out duration-500
+}
+
+.back-btn {
+    @apply bg-gray-500 text-white p-2 rounded w-20 ml-2 hover:bg-white hover:text-gray-500 transition ease-in-out duration-500
+}

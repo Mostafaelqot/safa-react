@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+@apply p-3 border-solid border-2 border-gray-200 rounded-xl shadow-md my-2 bg-white
+}
+
+.card-title {
+    @apply text-2xl text-primairy font-semibold my-4 cursor-pointer hover:text-blue-900 transition ease-in-out duration-500
+}
+
+.badge {
+    @apply list-none w-10 h-10 rounded-full bg-primairy text-white text-center text-xl pt-2 font-semibold inline-block
+}
+
+.search {
+    @apply outline-none w-64 md:w-96 focus:bg-gray-200 transition ease-in-out duration-500
+}
+
